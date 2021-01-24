@@ -5,7 +5,7 @@ export default function Cards() {
         <div>
             <div className="container">
                 <div className="card-deck">
-                    <div className="card shadow">
+                    <div className="card">
                         <img className="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
@@ -13,7 +13,7 @@ export default function Cards() {
                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
-                    <div className="card shadow">
+                    <div className="card">
                         <img className="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
@@ -21,7 +21,7 @@ export default function Cards() {
                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
-                    <div className="card shadow">
+                    <div className="card">
                         <img className="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>

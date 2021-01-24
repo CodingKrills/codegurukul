@@ -3,7 +3,7 @@ import React from 'react'
 export default function SingleCard() {
     return (
         <div className="container">
-            <div class="card my-4 shadow">
+            <div class="card my-4">
                 <img src="https://dummyimage.com/1200x300/000/fff" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>

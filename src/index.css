@@ -1,3 +1,18 @@
+/* ================================= */
+/* THEME COLORS */
+
+.theme_colors {
+  color: #f5f7fa;
+  color: #ec87c0;
+  background: #ed64a6;
+  color: #3c3b3d;
+  color: #5d9cec;
+  color: #ffffff;
+  color: #2d3748;
+}
+
+/* ================================= */
+
 .navbar {
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.15);
@@ -13,7 +28,23 @@
 
 .btn-gray {
   padding: 1rem 2rem;
-  background: #2d3748;
+  background: #3c3b3d;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+/* =========================================================== */
+/* cards */
+
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.452), 0 4px 8px rgba(0, 0, 0, 0.26);
 }
