@@ -1,19 +1,24 @@
-import React from 'react';
-import { useForm } from 'react-hook-form';
- 
+import React from "react";
+import './index.css'
+
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Cards from './components/Cards'
+import Footer from './components/Footer'
+import SingleCard from './components/SingleCard'
+
+
 export default function App() {
-  const { register, handleSubmit, errors } = useForm(); // initialize the hook
-  const onSubmit = (data) => {
-    console.log(data);
-  };
- 
+
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <input name="phone" ref={register({ required: true })} placeholder="Phone" />
-      {errors.phone && 'phone is required.'}
-      <br></br>
-      <input name="otp" ref={register} placeholder="Otp" />
-      <input type="submit" />
-    </form>
+    <>
+      <Header />
+      <div style={{ margin: "5rem 0 0 0" }}>
+        <Hero />
+      </div>
+      <Cards />
+      <SingleCard />
+      <Footer />
+    </>
   );
 }

@@ -1,12 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
 }
 
-input{
-  padding: 0.8rem;
+.btn-pink {
+  padding: 1rem 2rem;
+  background: #ed64a6;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.btn-gray {
+  padding: 1rem 2rem;
+  background: #2d3748;
+  color: #ffffff;
+  text-transform: uppercase;
 }
