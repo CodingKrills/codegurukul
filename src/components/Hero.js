@@ -19,7 +19,7 @@ export default function Hero() {
                 </div>
 
                 <div className="col-12 col-md-7">
-                    <img className='img-fluid' src='https://www.creative-tim.com/bits/assets/images/header_image.png' />
+                    <img className='img-fluid' src='https://www.creative-tim.com/bits/assets/images/header_image.png' alt='hero' />
                 </div>
 
             </div>
