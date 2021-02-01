@@ -1,24 +1,28 @@
 import React from "react";
 import './index.css'
 
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Cards from './components/Cards'
-import Footer from './components/Footer'
-import SingleCard from './components/SingleCard'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
+import { Home } from "./pages/Home";
+import { AdminHome } from "./pages/AdminHome";
+import { Header } from './components/Header'
 
 export default function App() {
 
   return (
     <>
       <Header />
-      <div style={{ margin: "5rem 0 0 0" }}>
-        <Hero />
-      </div>
-      <Cards />
-      <SingleCard />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/admin" component={AdminHome} />
+        </Switch>
+      </Router>
     </>
   );
 }

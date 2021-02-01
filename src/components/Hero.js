@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Typing, TypingStep } from "typing-effect-reactjs";
+
 export default function Hero() {
     return (
         <div className='container'>
@@ -7,9 +9,19 @@ export default function Hero() {
             <div className="row">
 
                 <div className="col-12 col-md-5">
-                    <div style={{ padding: "50% 0" }}>
+                    <div style={{ padding: "50% 0 30% 0" }}>
                         <h1>
-                            Code snippets for easier coding
+                            <Typing
+                                text={[
+                                    "Winner of Football World Cup 2018 is France",
+                                    "Winner of Football World Cup 2014 is Germany",
+                                    "Winner of Cricket World Cup 2019 is England",
+                                    "Winner of Cricket World Cup 2015 is Australia",
+                                ]}
+                                smartBackspace
+                                element="h1"
+                                typeSpeed={100}
+                            />
                         </h1>
                         <button type="button" class="btn btn-pink shadow">Primary</button>
                         <button type="button" class="btn btn-gray shadow">Primary</button>
