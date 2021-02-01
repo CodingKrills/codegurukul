@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Typing, TypingStep } from "typing-effect-reactjs";
+import { Typing } from "typing-effect-reactjs";
 
 export default function Hero() {
     return (

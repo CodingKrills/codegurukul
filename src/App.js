@@ -4,8 +4,7 @@ import './index.css'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import { Home } from "./pages/Home";
