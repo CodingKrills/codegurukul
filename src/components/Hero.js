@@ -12,6 +12,8 @@ export default function Hero() {
                     <div style={{ padding: "50% 0 30% 0" }}>
                         <h1>
                             UPDATE !!
+                            NEW
+                            Jenkins
                             {/* <Typing
                                 text={[
                                     "Winner of Football World Cup 2018 is France",
