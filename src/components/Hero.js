@@ -11,6 +11,7 @@ export default function Hero() {
                 <div className="col-12 col-md-5">
                     <div style={{ padding: "50% 0 30% 0" }}>
                         <h1>
+                            UPDATE !!
                             <Typing
                                 text={[
                                     "Winner of Football World Cup 2018 is France",
