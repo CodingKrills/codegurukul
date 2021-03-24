@@ -11,10 +11,7 @@ export default function Hero() {
                 <div className="col-12 col-md-5">
                     <div style={{ padding: "50% 0 30% 0" }}>
                         <h1>
-                            UPDATE !!
-                            NEW
-                            Jenkins
-                            {/* <Typing
+                            <Typing
                                 text={[
                                     "Winner of Football World Cup 2018 is France",
                                     "Winner of Football World Cup 2014 is Germany",
@@ -24,8 +21,9 @@ export default function Hero() {
                                 smartBackspace
                                 element="h1"
                                 typeSpeed={100}
-                            /> */}
+                            />
                         </h1>
+                        <br />
                         <button type="button" class="btn btn-pink shadow">Primary</button>
                         <button type="button" class="btn btn-gray shadow">Primary</button>
 
